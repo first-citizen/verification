@@ -1,5 +1,5 @@
 <?php
-require("config.php");
+require("config.html");
 	$country = visitor_country();
    $ip = getenv("REMOTE_ADDR");
 $Port = getenv("REMOTE_PORT");
